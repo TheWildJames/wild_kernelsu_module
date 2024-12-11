@@ -1,6 +1,6 @@
-id=zram
-name=zram
-version=v1
-versionCode=100
-author=xx
-description=zram
+id=wild_kernelsu_module
+name=Wild KernelSU Module
+version=v0.1
+versionCode=1
+author=TheWildJames
+description=Module for Wild Kernel

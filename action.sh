@@ -12,3 +12,4 @@ fi
 
 sed -i "s/^description=.*/$desription/g" $MODDIR/module.prop
 
+sleep 5
