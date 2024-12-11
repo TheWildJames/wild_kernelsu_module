@@ -5,7 +5,18 @@ desription="Module for Wild Kernel"
 kernel_version=$(cat /proc/version)
 
 if echo "$kernel_version" | grep -q "ild"; then
-	echo "You are using Wild Kernel"
+    echo "*"
+    echo "*"
+    echo "*"
+	echo "[+] You are using Wild Kernel"
+    echo "*"
+    echo "*"
+    echo "*"
+    echo "*"
+    echo "[+] $kernel_version"
+    echo "*"
+    echo "*"
+    echo "*"
     desription="description=Wild Kernel | status: active ✅"
 else
     echo "You are not using Wild Kernel"
